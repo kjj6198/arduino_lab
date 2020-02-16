@@ -9,7 +9,8 @@
         "/Applications/Arduino.app/Contents/Java/libraries/LiquidCrystal/src",
         "/Applications/Arduino.app/Contents/Java/libraries/RTClib",
         "/Applications/Arduino.app/Contents/Java/libraries/DS1307RTC",
-        "/Applications/Arduino.app/Contents/Java/libraries/Time"
+        "/Applications/Arduino.app/Contents/Java/libraries/Time",
+        "/Applications/Arduino.app/Contents/Java/libraries/Keypad"
       ],
       "forcedInclude": [
         "/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/Arduino.h"
