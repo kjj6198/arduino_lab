@@ -1,0 +1,26 @@
+{
+  "configurations": [
+    {
+      "name": "Mac",
+      "includePath": [
+        "/Applications/Arduino.app/Contents/Java/tools/**",
+        "/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/**",
+        "/Applications/Arduino.app/Contents/Java/hardware/tools/avr/**",
+        "/Applications/Arduino.app/Contents/Java/libraries/LiquidCrystal/src",
+        "/Applications/Arduino.app/Contents/Java/libraries/RTClib",
+        "/Applications/Arduino.app/Contents/Java/libraries/DS1307RTC",
+        "/Applications/Arduino.app/Contents/Java/libraries/Time"
+      ],
+      "forcedInclude": [
+        "/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/Arduino.h"
+      ],
+      "macFrameworkPath": ["/System/Library/Frameworks", "/Library/Frameworks"],
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "c11",
+      "cppStandard": "c++17",
+      "defines": ["USBCON"]
+    }
+  ],
+  "version": 4
+}
