@@ -2,6 +2,7 @@
   "files.associations": {
     "string": "cpp",
     "cstdarg": "cpp",
-    "ostream": "cpp"
+    "ostream": "cpp",
+    "cstdio": "c"
   }
 }

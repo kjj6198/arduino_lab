@@ -29,16 +29,11 @@ void setup()
 void loop()
 {
   DateTime now = rtc.now();
+  char buffer[9] = "";
   lcd.setCursor(0, 0);
-  lcd.print(now.year(), DEC);
-  lcd.print('/');
-  lcd.print(now.month(), DEC);
-  lcd.print('/');
-  lcd.print(now.day(), DEC);
+  sprintf(buffer, "%02d/%02d/%02d", now.year(), now.month(), now.day());
+  lcd.print(buffer);
   lcd.setCursor(0, 1);
-  lcd.print(now.hour(), DEC);
-  lcd.print(':');
-  lcd.print(now.minute(), DEC);
-  lcd.print(':');
-  lcd.print(now.second(), DEC);
+  sprintf(buffer, "%02d:%02d:%02d", now.hour(), now.minute(), now.second());
+  lcd.print(buffer);
 }
