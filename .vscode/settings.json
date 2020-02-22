@@ -3,6 +3,7 @@
     "string": "cpp",
     "cstdarg": "cpp",
     "ostream": "cpp",
-    "cstdio": "c"
+    "cstdio": "c",
+    "istream": "cpp"
   }
 }

@@ -10,6 +10,9 @@
         "/Applications/Arduino.app/Contents/Java/libraries/RTClib",
         "/Applications/Arduino.app/Contents/Java/libraries/DS1307RTC",
         "/Applications/Arduino.app/Contents/Java/libraries/Time",
+        "/Applications/Arduino.app/Contents/Java/libraries/IRremote",
+        "/Applications/Arduino.app/Contents/Java/libraries/DHT",
+        "/Applications/Arduino.app/Contents/Java/libraries/SimpleDHT",
         "/Applications/Arduino.app/Contents/Java/libraries/Keypad"
       ],
       "forcedInclude": [
