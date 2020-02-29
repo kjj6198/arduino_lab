@@ -1,6 +1,6 @@
 {
     "board": "arduino:avr:mega",
     "configuration": "cpu=atmega2560",
-    "port": "/dev/cu.usbmodem144201",
-    "sketch": "lcd/lcd.ino"
+    "port": "/dev/cu.usbmodem144301",
+    "sketch": "sensor-temp-humid/main/main.ino"
 }
